@@ -1,0 +1,115 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family:"Merriweather",sans-serif;
+}
+
+h1{
+  margin-top: 0;
+  font-family: Sacramento;
+  color: #5fdde5;
+  font-size: 80px;
+}
+h2{
+  color:  #5fdde5;
+}
+h3{
+  color:  #5fdde5;
+}
+hr{
+  border: dotted  #5fdde5 ;
+  border-top: none;
+  width: 4%;
+}
+a{
+  color: #5fdde5;
+  margin: 10px 20px;
+  font-family:"Merriweather",sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color: #d4f3ef;
+}
+.top-container{
+  background-color:#d4f3ef;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  margin: 100px 0;
+}
+.bottom-container{
+  background-color: #d4f3ef;
+  padding: 50px 0 20px;
+}
+.profile{
+margin-bottom: 100px;
+
+}
+
+.skill-row{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-row2{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: right;
+  line-height: 2;
+}
+.code-img{
+width: 25%;
+float: right;
+margin-left: 30px;
+}
+.code-img2{
+width: 25%;
+float: left;
+margin-right: 30px;
+}
+
+.middle-container{
+  margin-top: 20px
+}
+.top-cloud{
+
+position: absolute;
+right:200px;
+top:50px
+}
+.bottom-cloud{
+  position: absolute;
+  left:200px;
+bottom: 300px;
+}
+.copyright-massage{
+color:#5fdde5;
+}
+
+.myButton {
+	box-shadow:inset 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:14px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Merriweather",sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:5px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+  margin-top: 50px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
